@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: white;
+  --foreground: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: white !important;  /* Force light mode */
+    --foreground: black !important;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* In your global stylesheet (e.g., globals.css or tailwind.css) */
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;  /* for Internet Explorer */
+  scrollbar-width: none;      /* for Firefox */
+}
+
+@layer utilities {
+  .hover-scale {
+    @apply transition duration-300 hover:shadow-lg hover:border-blue-500 hover:scale-105;
+  }
+}
