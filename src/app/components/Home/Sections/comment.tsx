@@ -122,7 +122,7 @@ export default function Comment() {
           </div>
           <div className="absolute lg:top-[330px] top-80 left-10 flex overflow-hidden xl:overflow-visible">
             <Image
-              src="./images/home/picture.png"
+              src="./images/home/picture-date.png"
               alt="blob"
               width={304}
               height={179}
