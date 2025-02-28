@@ -13,7 +13,7 @@ export default function Footer() {
             <div>
               <div className="flex items-center mb-4 md:mb-0">
                 <Image
-                  src="/images/home/logo-ft.png"  // Replace with your actual logo path
+                  src="./images/home/logo-ft.png"  // Replace with your actual logo path
                   alt="Logo"
                   width={22}  // Adjust the size of the logo
                   height={21}
@@ -34,7 +34,7 @@ export default function Footer() {
                           <Link href="/" className="text-white hover:text-gray-400 transition-colors duration-300">{item}</Link>
                           {item === 'Accessibility' && <span className="text-xs bg-[#F3E8FF] text-[#6B21A8] px-2 py-1 rounded-sm">BETA</span>}
                           {item === 'Request Demo' && <Image
-                            src="/home/arrow-right.svg"
+                            src="./home/arrow-right.svg"
                             alt="arrow-right"
                             width={24}
                             height={24}
@@ -70,7 +70,7 @@ export default function Footer() {
                 <div className="flex justify-start ml-8 space-x-8 mt-6 md:mt-0">
                   <Link href="/" className="text-white hover:text-white flex">
                     <Image
-                      src="/home/world.svg"
+                      src="./home/world.svg"
                       alt="Logo"
                       width={24}
                       height={24}
@@ -80,7 +80,7 @@ export default function Footer() {
                   <Link href="/" className="text-white hover:text-white flex">
                     <div className="lg:block hidden">
                       <Image
-                        src="/home/euro.svg"
+                        src="./home/euro.svg"
                         alt="Logo"
                         width={24}
                         height={24}
@@ -89,7 +89,7 @@ export default function Footer() {
                     <p className="ml-[8px]">EUR</p>
                   </Link>
                   <Image
-                    src="/home/accessibility.svg"
+                    src="./home/accessibility.svg"
                     alt="Logo"
                     width={24}
                     height={24}

@@ -7,7 +7,7 @@ export default function International() {
       <div>
         <Image
           className="rounded-full object-cover w-full max-w-[600px]"
-          src="/images/home/study.png"
+          src="./images/home/study.png"
           alt="study"
           width={600}
           height={651}
@@ -17,7 +17,7 @@ export default function International() {
       <div className="relative max-w-[600px] w-full">
         <Image
           className="absolute right-[50%] translate-x-[50%] lg:right-[230px] lg:translate-x-0 top-[-25px]"
-          src="/home/plane-departure.svg"
+          src="./home/plane-departure.svg"
           alt="plane"
           width={64}
           height={64}
@@ -33,7 +33,7 @@ export default function International() {
 
         <div className="flex lg:justify-start items-center my-8 cursor-pointer">
           <p className="text-[#2563EB] font-medium text-xl mr-1">Explore teachers and students</p>
-          <Image src="/home/left.svg" alt="chevron-right" width={14} height={14} />
+          <Image src="./home/left.svg" alt="chevron-right" width={14} height={14} />
         </div>
       </div>
     </div>

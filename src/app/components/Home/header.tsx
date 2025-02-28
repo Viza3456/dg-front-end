@@ -4,7 +4,7 @@ import { useState } from "react";
 import { navItems } from "@/constants/home";
 
 export default function Header() {
-  
+
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -39,7 +39,7 @@ export default function Header() {
           {/* Mobile Menu Placeholder */}
           <button className="md:hidden text-gray-700 focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}>
-            <Image src="/home/bar.svg" alt="bar" width={24} height={24} />
+            <Image src="./home/bar.svg" alt="bar" width={24} height={24} />
           </button>
         </div>
       </header>

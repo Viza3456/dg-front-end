@@ -5,7 +5,7 @@ const navItems = [
   {
     name: "Resources",
     href: "/",
-    icon: "/home/chevron-down.svg", // Add an icon if needed
+    icon: "./home/chevron-down.svg", // Add an icon if needed
   },
 ];
 
@@ -40,43 +40,43 @@ const footerLinks = [
 
 const cardData = [
   {
-    image: '/images/home/mobile-top.png',
+    image: './images/home/mobile-top.png',
     name: 'Hellen Jummy',
     title: 'Financial Counselor',
     description: 'Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna  congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi.'
   },
   {
-    image: '/images/home/mobile-top.png', // You can replace with different images
+    image: './images/home/mobile-top.png', // You can replace with different images
     name: 'John Doe',
     title: 'Software Engineer',
     description: 'Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna  congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi.'
   },
   {
-    image: '/images/home/mobile-top.png', // You can replace with different images
+    image: './images/home/mobile-top.png', // You can replace with different images
     name: 'Alice Smith',
     title: 'Data Scientist',
     description: 'Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna  congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi.'
   },
   {
-    image: '/images/home/mobile-top.png', // You can replace with different images
+    image: './images/home/mobile-top.png', // You can replace with different images
     name: 'Alice Smith',
     title: 'Data Scientist',
     description: 'Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna  congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi.'
   },
   {
-    image: '/images/home/mobile-top.png', // You can replace with different images
+    image: './images/home/mobile-top.png', // You can replace with different images
     name: 'Alice Smith',
     title: 'Data Scientist',
     description: 'Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna  congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi.'
   },
   {
-    image: '/images/home/mobile-top.png', // You can replace with different images
+    image: './images/home/mobile-top.png', // You can replace with different images
     name: 'Alice Smith',
     title: 'Data Scientist',
     description: 'Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna  congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi.'
   },
   {
-    image: '/images/home/mobile-top.png', // You can replace with different images
+    image: './images/home/mobile-top.png', // You can replace with different images
     name: 'Alice Smith',
     title: 'Data Scientist',
     description: 'Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna  congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi.'
@@ -108,29 +108,29 @@ const cardProduct = [
 ];
 
 const stats = [
-  { number: 195, label: "user countries", image: '/home/heart.svg' },
-  { number: '1M', label: "active users", image: '/home/daimond.svg' },
-  { number: '17M', label: "total visits", image: '/home/grad.svg' },
+  { number: 195, label: "user countries", image: './home/heart.svg' },
+  { number: '1M', label: "active users", image: './home/daimond.svg' },
+  { number: '17M', label: "total visits", image: './home/grad.svg' },
 ];
 
 const desktopIcons = [
-  "/images/home/App-icon.png",
-  "/images/home/App-icon-1.png",
-  "/images/home/App-icon-2.png",
-  "/images/home/App-icon-3.png",
-  "/images/home/App-icon-4.png",
-  "/images/home/App-icon-5.png",
-  "/images/home/App-icon-6.png",
-  "/images/home/App-icon-9.png",
-  "/images/home/Group-8.png"
+  "./images/home/App-icon.png",
+  "./images/home/App-icon-1.png",
+  "./images/home/App-icon-2.png",
+  "./images/home/App-icon-3.png",
+  "./images/home/App-icon-4.png",
+  "./images/home/App-icon-5.png",
+  "./images/home/App-icon-6.png",
+  "./images/home/App-icon-9.png",
+  "./images/home/Group-8.png"
 ];
 
 const bannerIcons = [
-  "/home/banner-4.svg",
-  "/home/banner-1.svg",
-  "/home/banner-5.svg",
-  "/home/banner-3.svg",
-  "/home/banner-2.svg",
+  "./home/banner-4.svg",
+  "./home/banner-1.svg",
+  "./home/banner-5.svg",
+  "./home/banner-3.svg",
+  "./home/banner-2.svg",
 ];
 
 export {

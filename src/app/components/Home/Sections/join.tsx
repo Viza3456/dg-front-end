@@ -7,7 +7,7 @@ export default function Join() {
       {/* Mobile top image */}
       <div className="block md:hidden px-4">
         <Image
-          src="/images/home/mobile-top.png"
+          src="./images/home/mobile-top.png"
           alt="mobile-top"
           width={467}
           height={167}
@@ -32,7 +32,7 @@ export default function Join() {
       {/* Mobile bottom image */}
       <div className="block md:hidden px-4">
         <Image
-          src="/images/home/mobile-bottom.png"
+          src="./images/home/mobile-bottom.png"
           alt="mobile-bottom"
           width={470}
           height={195}
@@ -43,7 +43,7 @@ export default function Join() {
       {/* Large Screens: Left Image */}
       <div className="hidden md:block">
         <Image
-          src="/images/home/alot-left.png"
+          src="./images/home/alot-left.png"
           alt="alot-left"
           width={467}
           height={636}
@@ -54,7 +54,7 @@ export default function Join() {
       {/* Large Screens: Right Image */}
       <div className="hidden md:block">
         <Image
-          src="/images/home/alot-right.png"
+          src="./images/home/alot-right.png"
           alt="alot-right"
           width={470}
           height={598}

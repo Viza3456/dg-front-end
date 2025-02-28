@@ -8,14 +8,14 @@ export default function Tool() {
       {/* Blob Image (Background) */}
       <Image
         className="hidden md:block absolute top-8 right-0 w-[370px] h-[768px]"
-        src="/images/home/Blob-Group.png"
+        src="./images/home/Blob-Group.png"
         alt="blob"
         width={370}
         height={768}
       />
       <Image
         className="hidden md:block absolute top-64 left-14 w-[561px] h-[580px]"
-        src="/images/home/blob-left.png"
+        src="./images/home/blob-left.png"
         alt="blob"
         width={561}
         height={580}
@@ -23,7 +23,7 @@ export default function Tool() {
 
       <Image
         className="hidden md:block absolute 2xl:left-44 3xl:left-80 bottom-32 w-[1093px] h-[78px]"
-        src="/images/home/Lines.png"
+        src="./images/home/Lines.png"
         alt="blob"
         width={1093}
         height={78}
@@ -46,7 +46,7 @@ export default function Tool() {
         <div className="container-screen">
           <Image
             className="mt-10 w-[1100px] h-full"
-            src="/images/home/page.png"
+            src="./images/home/page.png"
             alt="page"
             width={1100}
             height={640}

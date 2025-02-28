@@ -10,13 +10,13 @@ export default function Comment() {
           <p className="text-2xl lg:text-[56px] text-black-200 font-extrabold">What everyone says</p>
           <div className="flex space-x-6">
             <Image
-              src="/home/chevron-left.svg"
+              src="./home/chevron-left.svg"
               alt="chevron-left"
               width={48}
               height={48}
             />
             <Image
-              src="/home/chevron-left.svg"
+              src="./home/chevron-left.svg"
               alt="chevron-right"
               width={48}
               height={48}
@@ -62,7 +62,7 @@ export default function Comment() {
           <div className="flex items-center space-x-2 my-8 cursor-pointer">
             <p className="text-[#2563EB] font-medium text-base lg:text-xl mr-1">View all the features</p>
             <Image
-              src="/home/left.svg"
+              src="./home/left.svg"
               alt="chevron-right"
               width={14}
               height={14}
@@ -72,7 +72,7 @@ export default function Comment() {
         <div className="relative">
           <Image
             className="h-[520px]"
-            src="/images/home/blob.png"
+            src="./images/home/blob.png"
             alt="blob"
             width={534}
             height={322}
@@ -96,7 +96,7 @@ export default function Comment() {
             </div>
             <div className="relative mt-10">
               <Image
-                src="/images/home/star.png"
+                src="./images/home/star.png"
                 alt="blob"
                 width={256}
                 height={554}
@@ -105,14 +105,14 @@ export default function Comment() {
               <div>
                 <Image
                   className="absolute top-[30px]"
-                  src="/images/home/picture-2.png"
+                  src="./images/home/picture-2.png"
                   alt="blob"
                   width={534}
                   height={522}
                 />
                 <Image
                   className="absolute right-[-20px] top-[120px]"
-                  src="/images/home/user.png"
+                  src="./images/home/user.png"
                   alt="blob"
                   width={80}
                   height={80}
@@ -122,13 +122,13 @@ export default function Comment() {
           </div>
           <div className="absolute lg:top-[330px] top-80 left-10 flex overflow-hidden xl:overflow-visible">
             <Image
-              src="/images/home/picture.png"
+              src="./images/home/picture.png"
               alt="blob"
               width={304}
               height={179}
             />
             <Image
-              src="/images/home/picture-1.png"
+              src="./images/home/picture-1.png"
               alt="blob"
               width={232}
               height={179}

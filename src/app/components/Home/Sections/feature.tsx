@@ -10,7 +10,7 @@ export default function Feature() {
         <ul className="mt-8">
           <li className="flex items-start text-base mr-4">
             <Image
-              src="/home/check.svg"
+              src="./home/check.svg"
               alt="chevron-right"
               width={24}
               height={24}
@@ -18,7 +18,7 @@ export default function Feature() {
             Est et in pharetra magna adipiscing ornare aliquam.</li>
           <li className="flex items-start text-base mr-4">
             <Image
-              src="/home/check.svg"
+              src="./home/check.svg"
               alt="chevron-right"
               width={24}
               height={24}
@@ -26,7 +26,7 @@ export default function Feature() {
             Est et in pharetra magna adipiscing ornare aliquam.</li>
           <li className="flex items-start text-base mr-4">
             <Image
-              src="/home/check.svg"
+              src="./home/check.svg"
               alt="chevron-right"
               width={24}
               height={24}
@@ -36,7 +36,7 @@ export default function Feature() {
         <div className="flex items-center space-x-2 my-8 cursor-pointer">
           <p className="text-[#2563EB] font-medium text-xl mr-1">Find more about the app</p>
           <Image
-            src="/home/left.svg"
+            src="./home/left.svg"
             alt="chevron-right"
             width={14}
             height={14}
@@ -47,7 +47,7 @@ export default function Feature() {
         <div>
           <Image
             className="absolute left-0 right-0 lg:top-[20px] lg:left-[120px]"
-            src="/images/home/blob.png"
+            src="./images/home/blob.png"
             alt="Background Image"
             width={406}
             height={300}
@@ -56,7 +56,7 @@ export default function Feature() {
         <div>
           <Image
             className="absolute top-0 right-0 lg:right-28 z-10"
-            src="/images/home/desktop.png"
+            src="./images/home/desktop.png"
             alt="Overlay Image"
             width={600}
             height={391}

@@ -18,7 +18,7 @@ export default function Student() {
             <button className="flex items-center w-[180px] lg:w-[239px] h-[56px] lg:h-[64px] text-lg lg:text-xl text-[#2563EB]">
               <Image
                 className="mr-4"
-                src="/home/play-circle.svg"
+                src="./home/play-circle.svg"
                 alt="play-circle"
                 width={24}
                 height={24}
@@ -55,7 +55,7 @@ export default function Student() {
         </div>
         <div>
           <Image
-            src="/images/home/point.png"
+            src="./images/home/point.png"
             alt="point"
             width={624}
             height={544}
