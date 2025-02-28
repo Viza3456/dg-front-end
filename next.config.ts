@@ -6,8 +6,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? '/dg-front-end/' : '',
-  basePath: isProd ? '/dg-front-end' : '',
   output: 'export'
 };
 
