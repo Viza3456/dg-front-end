@@ -14,7 +14,7 @@ export default function Header() {
         <div className="container-screen flex items-center justify-between py-6 px-6">
           <div className="flex space-x-12 items-center">
             <Link href="/" className="text-2xl font-bold">
-              <Image src="/images/home/logo.png" alt="Logo" width={103} height={35} />
+              <Image src="./images/home/logo.png" alt="Logo" width={103} height={35} />
             </Link>
             <nav className="hidden md:flex space-x-6 text-base">
               {navItems.map((item, index) => (
